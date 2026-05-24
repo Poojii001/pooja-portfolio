@@ -9,11 +9,11 @@ export default function Projects() {
                         <div className="col-lg-12">
                             <ul className="portfolio__filter">
                                 <li className="active" data-filter="*">All</li>
-                                <li data-filter=".branding">Branding</li>
-                                <li data-filter=".digital-marketing">Digital marketing</li>
-                                <li data-filter=".web">Web</li>
-                                <li data-filter=".photography">Photography</li>
+                                <li data-filter=".branding">Mern Stack</li>
+                                <li data-filter=".digital-marketing">Frontend</li>
+                                <li data-filter=".web">Backend</li>
                                 <li data-filter=" .ecommerce">eCommerce</li>
+                                <li data-filter=".photography">Aut, API, UI</li>
                             </ul>
                         </div>
                     </div>

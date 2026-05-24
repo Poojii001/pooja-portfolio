@@ -20,8 +20,9 @@ const Education = () => {
                 Bachelor of Technology (CSE)
               </h5>
               <span className="text-info">AKTU University | 2022 - 2026</span>
-              <p className="text-secondary mt-2">
-                Learning MERN Stack, Web Development, DSA and Software Engineering.
+              <p className="text-secondary mt-2 text-light">
+                Computer Science and Engineering student with interest in full stack web development,
+                MERN stack, and software engineering fundamentals.
               </p>
             </div>
           </div>
@@ -33,7 +34,7 @@ const Education = () => {
                 Higher Secondary (12th)
               </h5>
               <span className="text-info">UP Board | 2021 - 2022</span>
-              <p className="text-secondary mt-2">
+              <p className="text-secondary mt-2 text-light">
                 Science stream with Physics, Chemistry and Mathematics.
               </p>
             </div>
@@ -46,7 +47,7 @@ const Education = () => {
                 High School (10th)
               </h5>
               <span className="text-info">UP Board | 2019 - 2020</span>
-              <p className="text-secondary mt-2">
+              <p className="text-secondary mt-2 text-light">
                 Built foundation in Math and Science.
               </p>
             </div>

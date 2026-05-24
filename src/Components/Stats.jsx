@@ -11,7 +11,7 @@ export default function Stats() {
                         <div className="counter__item">
                             <div className="counter__item__text">
                                 <img src="img/icons/ci-1.png" alt=""/>
-                                <h2 className="counter_num">230</h2>
+                                <h2 className="counter_num">20</h2>
                                 <p>Compled Projects</p>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ export default function Stats() {
                         <div className="counter__item second__item">
                             <div className="counter__item__text">
                                 <img src="img/icons/ci-2.png" alt=""/>
-                                <h2 className="counter_num">1068</h2>
+                                <h2 className="counter_num">1062</h2>
                                 <p>Happy clients</p>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ export default function Stats() {
                         <div className="counter__item third__item">
                             <div className="counter__item__text">
                                 <img src="img/icons/ci-3.png" alt=""/>
-                                <h2 className="counter_num">230</h2>
+                                <h2 className="counter_num">20</h2>
                                 <p>Perspective clients</p>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ export default function Stats() {
                         <div className="counter__item four__item">
                             <div className="counter__item__text">
                                 <img src="img/icons/ci-4.png" alt=""/>
-                                <h2 className="counter_num">230</h2>
+                                <h2 className="counter_num">20</h2>
                                 <p>Compled Projects</p>
                             </div>
                         </div>
