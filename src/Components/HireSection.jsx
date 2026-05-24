@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function HireSection() {
   return (
@@ -26,9 +27,9 @@ export default function HireSection() {
             </a>
 
             {/* Hire Me */}
-            <a href="/hire" className="btn-hire">
+            <Link to="/contactus" className="btn-hire">
               Hire Me 
-            </a>
+            </Link>
           </div>
 
         </div>

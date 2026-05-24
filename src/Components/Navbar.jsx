@@ -23,7 +23,7 @@ export default function Navbar() {
                                         <li><NavLink to="/projects">Projects</NavLink></li>
                                         <li><NavLink to="/services">Services</NavLink></li>
                                         <li><NavLink to="/contactus">Contact Us</NavLink></li>
-                                        <li><NavLink to="#">Explore</NavLink>
+                                        <li><NavLink to="/hire">Explore</NavLink>
                                             <ul className="dropdown">
                                                 <li><NavLink to="/about">About</NavLink></li>
                                                 <li><NavLink to="/experience">Experience</NavLink></li>

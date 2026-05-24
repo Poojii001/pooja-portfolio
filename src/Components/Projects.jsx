@@ -23,7 +23,7 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-1.jpg')",
+                                        backgroundImage: "url('/img/project/p1.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
@@ -31,10 +31,14 @@ export default function Projects() {
                                     }}
                                 ></div>
                                 <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
+                                    <h4>Apni Dukan - E-Commerce Website</h4>
+
                                     <ul>
-                                        <li>eCommerce</li>
-                                        <li>Magento</li>
+                                        <li>MERN Stack</li>
+                                        <li>React.js</li>
+                                        <li>Node.js</li>
+                                        <li>MongoDB</li>
+                                        <li>JWT Auth</li>
                                     </ul>
                                 </div>
                             </div>
@@ -44,7 +48,7 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-2.jpg')",
+                                        backgroundImage: "url('/img/project/p222.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
@@ -52,8 +56,8 @@ export default function Projects() {
                                     }}
                                 ></div>
                                 <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
-                                    <span>Photography</span>
+                                    <h4>LifeLink - Hospital Management & Emergency System</h4>
+                                    <span>React • Node.js • MongoDB • Express</span>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +66,7 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-3.jpg')",
+                                        backgroundImage: "url('/img/project/p3.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
@@ -70,11 +74,8 @@ export default function Projects() {
                                     }}
                                 ></div>
                                 <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
-                                    <ul>
-                                        <li>eCommerce</li>
-                                        <li>Magento</li>
-                                    </ul>
+                                    <h4>NewsApp - Live News Aggregator</h4>
+                                    <span>React.js • API Integration</span>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +84,7 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-4.jpg')",
+                                        backgroundImage: "url('/img/project/p4.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
@@ -91,12 +92,14 @@ export default function Projects() {
                                     }}
                                 ></div>
                                 <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
+                                    <h4>State Management with Context API</h4>
                                     <ul>
-                                        <li>eCommerce</li>
-                                        <li>Magento</li>
+                                        <li>React</li>
+                                        <li>Context API</li>
+                                        <li>Dynamic Data Handling</li>
                                     </ul>
                                 </div>
+
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
@@ -104,7 +107,7 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-5.jpg')",
+                                        backgroundImage: "url('/img/project/p5.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
@@ -112,8 +115,8 @@ export default function Projects() {
                                     }}
                                 ></div>
                                 <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
-                                    <span>Photography</span>
+                                    <h4>Modern To‑Do List App</h4>
+                                    <span>HTML • CSS • JavaScript</span>
                                 </div>
                             </div>
                         </div>
@@ -122,20 +125,21 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-6.jpg')",
+                                        backgroundImage: "url('/img/project/p6.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
                                         borderRadius: "10px"
                                     }}
                                 ></div>
-                                <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
+                                <div class="portfolio__item__text">
+                                    <h4>MyChatApp</h4>
                                     <ul>
-                                        <li>eCommerce</li>
-                                        <li>Magento</li>
+                                        <li>Real-time Messaging</li>
+                                        <li>Node.js + Socket.io</li>
                                     </ul>
                                 </div>
+
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mix web">
@@ -143,20 +147,21 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-7.jpg')",
+                                        backgroundImage: "url('/img/project/p7.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
                                         borderRadius: "10px"
                                     }}
                                 ></div>
-                                <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
+                                <div class="portfolio__item__text">
+                                    <h4>BMI Calculator App</h4>
                                     <ul>
-                                        <li>eCommerce</li>
-                                        <li>Magento</li>
+                                        <li>HTML, CSS, JavaScript</li>
+                                        <li>Responsive Design</li>
                                     </ul>
                                 </div>
+
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mix photography">
@@ -164,17 +169,18 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-8.jpg')",
+                                        backgroundImage: "url('/img/project/p8.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
                                         borderRadius: "10px"
                                     }}
                                 ></div>
-                                <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
-                                    <span>Photography</span>
+                                <div class="portfolio__item__text">
+                                    <h4>Interactive Color Switcher</h4>
+                                    <span>HTML • CSS • JS</span>
                                 </div>
+
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
@@ -182,7 +188,7 @@ export default function Projects() {
                                 <div
                                     className="portfolio__item__video"
                                     style={{
-                                        backgroundImage: "url('/img/portfolio/portfolio-9.jpg')",
+                                        backgroundImage: "url('/img/project/p9.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                         height: "250px",
@@ -190,10 +196,11 @@ export default function Projects() {
                                     }}
                                 ></div>
                                 <div className="portfolio__item__text">
-                                    <h4>VIP Auto Tires & Service</h4>
+                                    <h4>Amazon Shopping Clone</h4>
                                     <ul>
-                                        <li>eCommerce</li>
-                                        <li>Magento</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
                                     </ul>
                                 </div>
                             </div>

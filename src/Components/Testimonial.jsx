@@ -37,21 +37,21 @@ export default function Testimonial() {
                 text="Pooja delivered a clean and responsive website with smooth functionality and modern UI design."
                 name="Rahul Sharma"
                 role="Frontend Client"
-                img="img/testimonial/ta-1.jpg"
+                // img="img/testimonial/ta-1.jpg"
               />
 
               <TestimonialCard
                 text="Her MERN stack skills are impressive. The project was completed on time with proper backend integration."
                 name="Anjali Verma"
                 role="Project Manager"
-                img="img/testimonial/ta-2.jpg"
+                // img="img/testimonial/ta-2.jpg"
               />
 
               <TestimonialCard
                 text="Very hardworking and creative developer. She builds responsive and user-friendly web applications."
                 name="Amit Singh"
                 role="Full Stack Mentor"
-                img="img/testimonial/ta-3.jpg"
+                // img="img/testimonial/ta-3.jpg"
               />
 
             </div>

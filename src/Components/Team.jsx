@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Team() {
   return (
@@ -22,31 +23,22 @@ export default function Team() {
             <div
               className="team__item"
               style={{
-                backgroundImage: "url('/img/team/team-1.jpg')",
+                backgroundImage: "url('/img/team/t2.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             >
               <div className="team__item__text">
-                <h4>AMANDA STONE</h4>
-                <p>Videographer</p>
+                <h4>Pooja Pal</h4>
+                <p>Full Stack Engineer</p>
 
                 <div className="team__item__social">
-                  <a href="/">
-                    <i className="bi bi-facebook"></i>
-                  </a>
+                  <Link to={import.meta.env.VITE_APP_FACEBOOK} target='_blank' rel='noreferrer'><i className="bi bi-twitter-x"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_TWITTER} target='_blank' rel='noreferrer'><i className="bi bi-facebook"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_INSTAGRAM} target='_blank' rel='noreferrer'><i className="bi bi-instagram"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_LINKEDIN} target='_blank' rel='noreferrer'><i className="bi bi-linkedin"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_YOUTUBE} target='_blank' rel='noreferrer'><i className="bi bi-youtube"></i></Link>
 
-                  <a href="/">
-                    <i className="bi bi-twitter"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-dribbble"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-instagram"></i>
-                  </a>
                 </div>
               </div>
             </div>
@@ -57,31 +49,21 @@ export default function Team() {
             <div
               className="team__item team__item--second"
               style={{
-                backgroundImage: "url('/img/team/team-2.jpg')",
+                backgroundImage: "url('/img/team/t4.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             >
               <div className="team__item__text">
-                <h4>AMANDA STONE</h4>
-                <p>Videographer</p>
+                <h4>Pooja Pal</h4>
+                <p>Full Stack Engineer</p>
 
                 <div className="team__item__social">
-                  <a href="/">
-                    <i className="bi bi-facebook"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-twitter"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-dribbble"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-instagram"></i>
-                  </a>
+                  <Link to={import.meta.env.VITE_APP_FACEBOOK} target='_blank' rel='noreferrer'><i className="bi bi-twitter-x"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_TWITTER} target='_blank' rel='noreferrer'><i className="bi bi-facebook"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_INSTAGRAM} target='_blank' rel='noreferrer'><i className="bi bi-instagram"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_LINKEDIN} target='_blank' rel='noreferrer'><i className="bi bi-linkedin"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_YOUTUBE} target='_blank' rel='noreferrer'><i className="bi bi-youtube"></i></Link>
                 </div>
               </div>
             </div>
@@ -92,31 +74,22 @@ export default function Team() {
             <div
               className="team__item team__item--third"
               style={{
-                backgroundImage: "url('/img/team/team-3.jpg')",
+                backgroundImage: "url('/img/team/t1.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             >
               <div className="team__item__text">
-                <h4>AMANDA STONE</h4>
-                <p>Videographer</p>
+                <h4>Pooja Pal</h4>
+                <p>Full Stack Engineer</p>
 
                 <div className="team__item__social">
-                  <a href="/">
-                    <i className="bi bi-facebook"></i>
-                  </a>
+                  <Link to={import.meta.env.VITE_APP_FACEBOOK} target='_blank' rel='noreferrer'><i className="bi bi-twitter-x"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_TWITTER} target='_blank' rel='noreferrer'><i className="bi bi-facebook"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_INSTAGRAM} target='_blank' rel='noreferrer'><i className="bi bi-instagram"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_LINKEDIN} target='_blank' rel='noreferrer'><i className="bi bi-linkedin"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_YOUTUBE} target='_blank' rel='noreferrer'><i className="bi bi-youtube"></i></Link>
 
-                  <a href="/">
-                    <i className="bi bi-twitter"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-dribbble"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-instagram"></i>
-                  </a>
                 </div>
               </div>
             </div>
@@ -127,31 +100,22 @@ export default function Team() {
             <div
               className="team__item team__item--four"
               style={{
-                backgroundImage: "url('/img/team/team-4.jpg')",
+                backgroundImage: "url('/img/team/t3.jpeg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             >
               <div className="team__item__text">
-                <h4>AMANDA STONE</h4>
-                <p>Videographer</p>
+                <h4>Pooja Pal</h4>
+                <p>Full Stack Engineer</p>
 
                 <div className="team__item__social">
-                  <a href="/">
-                    <i className="bi bi-facebook"></i>
-                  </a>
+                  <Link to={import.meta.env.VITE_APP_FACEBOOK} target='_blank' rel='noreferrer'><i className="bi bi-twitter-x"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_TWITTER} target='_blank' rel='noreferrer'><i className="bi bi-facebook"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_INSTAGRAM} target='_blank' rel='noreferrer'><i className="bi bi-instagram"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_LINKEDIN} target='_blank' rel='noreferrer'><i className="bi bi-linkedin"></i></Link>
+                  <Link to={import.meta.env.VITE_APP_YOUTUBE} target='_blank' rel='noreferrer'><i className="bi bi-youtube"></i></Link>
 
-                  <a href="/">
-                    <i className="bi bi-twitter"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-dribbble"></i>
-                  </a>
-
-                  <a href="/">
-                    <i className="bi bi-instagram"></i>
-                  </a>
                 </div>
               </div>
             </div>
@@ -159,9 +123,9 @@ export default function Team() {
 
           <div className="col-lg-12 p-0">
             <div className="team__btn">
-              <a href="/" className="primary-btn">
+              <Link to="/" className="primary-btn">
                 Meet Our Team
-              </a>
+              </Link>
             </div>
           </div>
         </div>
