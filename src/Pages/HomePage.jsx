@@ -11,6 +11,7 @@ import Testimonial from '../Components/Testimonial'
 import Skills from '../Components/Skills'
 import { Link } from 'react-router-dom'
 import Experience from '../Components/Experience'
+import HireSection from '../Components/HireSection'
 
 export default function HomePage() {
     return (
@@ -55,6 +56,7 @@ export default function HomePage() {
             <Stats />
             <Services />
             <Projects />
+            <HireSection />
             <Team />
             <Experience />
             <Testimonial />

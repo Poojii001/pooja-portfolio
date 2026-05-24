@@ -13,6 +13,7 @@ import ErrorPage from './Pages/ErrorPage'
 import FaqPage from './Pages/FaqPage'
 import TestimonialPage from './Pages/TestimonialPage'
 import SkillPage from './Pages/SkillPage'
+import HireSectionPage from './Pages/HireSectionPage'
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <Route path='/faq' element={<FaqPage />} />
         <Route path='/skills' element={<SkillPage />} />
         <Route path='/education' element={<EducationPage />} />
+        <Route path='/hire' element={<HireSectionPage />} />
 
 
         <Route path='/*' element={<ErrorPage />} />

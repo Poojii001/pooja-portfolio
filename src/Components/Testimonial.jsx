@@ -1,159 +1,90 @@
-import React from 'react'
+import React from "react";
 
 export default function Testimonial() {
-    return (
-        <>
-            <section className="services spad">
-                <div className="container">
+  return (
+    <section className="testimonial-section" id="testimonial">
+      <div className="container">
 
-                    <div className="row align-items-center">
+        <div className="row align-items-center">
 
-                        <div className="col-lg-4">
-                            <div className="services__title">
-                                <div className="section-title">
-                                    <span>Testimonials</span>
-                                    <h2>What Clients Say</h2>
-                                </div>
+          {/* Left Side */}
+          <div className="col-lg-4">
+            <div className="testimonial-title">
 
-                                <p>
-                                    Here are some reviews and feedback from
-                                    clients and mentors about my work and skills.
-                                </p>
+              <div className="section-title">
+                <span>Testimonials</span>
+                <h2>What Clients Say</h2>
+              </div>
 
-                                <a href="#" className="primary-btn">
-                                    View More
-                                </a>
-                            </div>
-                        </div>
+              <p>
+                Here are some reviews and feedback from clients and mentors
+                about my work and skills.
+              </p>
 
-                        <div className="col-lg-8">
+              <a href="#contact" className="primary-btn">
+                View More
+              </a>
 
-                            <div
-                                id="testimonialSlider"
-                                className="carousel slide"
-                                data-bs-ride="carousel"
-                            >
+            </div>
+          </div>
 
-                                <div className="carousel-inner">
+          {/* Right Side Cards */}
+          <div className="col-lg-8">
 
-                                    <div className="carousel-item active">
-                                        <div className="testimonial__item services__item">
+            <div className="testimonial-grid">
 
-                                            <div className="testimonial__text">
-                                                <p>
-                                                    Pooja delivered a clean and responsive
-                                                    website with smooth functionality
-                                                    and modern UI design.
-                                                </p>
-                                            </div>
+              <TestimonialCard
+                text="Pooja delivered a clean and responsive website with smooth functionality and modern UI design."
+                name="Rahul Sharma"
+                role="Frontend Client"
+                img="img/testimonial/ta-1.jpg"
+              />
 
-                                            <div className="testimonial__author">
+              <TestimonialCard
+                text="Her MERN stack skills are impressive. The project was completed on time with proper backend integration."
+                name="Anjali Verma"
+                role="Project Manager"
+                img="img/testimonial/ta-2.jpg"
+              />
 
-                                                <div className="testimonial__author__pic">
-                                                    <img
-                                                        src="img/testimonial/ta-1.jpg"
-                                                        alt=""
-                                                    />
-                                                </div>
+              <TestimonialCard
+                text="Very hardworking and creative developer. She builds responsive and user-friendly web applications."
+                name="Amit Singh"
+                role="Full Stack Mentor"
+                img="img/testimonial/ta-3.jpg"
+              />
 
-                                                <div className="testimonial__author__text">
-                                                    <h5>Rahul Sharma</h5>
-                                                    <span>Frontend Client</span>
-                                                </div>
+            </div>
 
-                                            </div>
+          </div>
 
-                                        </div>
-                                    </div>
+        </div>
 
-                                    <div className="carousel-item">
-                                        <div className="testimonial__item services__item">
+      </div>
+    </section>
+  );
+}
 
-                                            <div className="testimonial__text">
-                                                <p>
-                                                    Her MERN stack skills are impressive.
-                                                    The project was completed on time
-                                                    with proper backend integration.
-                                                </p>
-                                            </div>
+/* Card Component */
+function TestimonialCard({ text, name, role, img }) {
+  return (
+    <div className="testimonial-card">
 
-                                            <div className="testimonial__author">
+      <i className="bi bi-chat-quote-fill quote-icon"></i>
 
-                                                <div className="testimonial__author__pic">
-                                                    <img
-                                                        src="img/testimonial/ta-2.jpg"
-                                                        alt=""
-                                                    />
-                                                </div>
+      <p>{text}</p>
 
-                                                <div className="testimonial__author__text">
-                                                    <h5>Anjali Verma</h5>
-                                                    <span>Project Manager</span>
-                                                </div>
+      <div className="testimonial-user">
 
-                                            </div>
+        <img src={img} alt={name} />
 
-                                        </div>
-                                    </div>
+        <div>
+          <h5>{name}</h5>
+          <span>{role}</span>
+        </div>
 
-                                    <div className="carousel-item">
-                                        <div className="testimonial__item services__item">
+      </div>
 
-                                            <div className="testimonial__text">
-                                                <p>
-                                                    Very hardworking and creative developer.
-                                                    She builds responsive and user-friendly
-                                                    web applications.
-                                                </p>
-                                            </div>
-
-                                            <div className="testimonial__author">
-
-                                                <div className="testimonial__author__pic">
-                                                    <img
-                                                        src="img/testimonial/ta-3.jpg"
-                                                        alt=""
-                                                    />
-                                                </div>
-
-                                                <div className="testimonial__author__text">
-                                                    <h5>Amit Singh</h5>
-                                                    <span>Full Stack Mentor</span>
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <button
-                                    className="carousel-control-prev"
-                                    type="button"
-                                    data-bs-target="#testimonialSlider"
-                                    data-bs-slide="prev"
-                                >
-                                    <span className="carousel-control-prev-icon"></span>
-                                </button>
-
-                                <button
-                                    className="carousel-control-next"
-                                    type="button"
-                                    data-bs-target="#testimonialSlider"
-                                    data-bs-slide="next"
-                                >
-                                    <span className="carousel-control-next-icon"></span>
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
-        </>
-    )
+    </div>
+  );
 }

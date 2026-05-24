@@ -1015,137 +1015,251 @@ ol {
 }
 
 /* Faq */
-.faq__item {
-  padding: 35px 25px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: all 0.4s ease;
-  margin-bottom: 25px;
-  height: 100%;
+.faq-section {
+  padding: 100px 0;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
 }
 
-.faq__item:hover {
-  transform: translateY(-5px);
-  border-color: #00bfe7;
+/* Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.faq__question {
-  color: #ffffff;
-  font-size: 18px;
+.section-title span {
+  color: #00d4ff;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.section-title h2 {
+  font-size: 34px;
+  margin-top: 10px;
+}
+
+/* Wrapper */
+.faq-wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Card */
+.faq-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  margin-bottom: 15px;
+  padding: 18px 20px;
+  transition: 0.3s ease;
+}
+
+/* hover */
+.faq-card:hover {
+  border-color: #00d4ff;
+  transform: translateY(-3px);
+}
+
+/* remove default arrow */
+.faq-question {
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   list-style: none;
-  position: relative;
-  padding-right: 25px;
-  line-height: 28px;
 }
 
-.faq__question::-webkit-details-marker {
+/* answer */
+.faq-answer {
+  margin-top: 10px;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+/* remove default triangle */
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
   display: none;
 }
 
-.faq__question::after {
-  content: "+";
-  position: absolute;
-  right: 0;
-  top: 0;
-  color: #00bfe7;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.faq__item[open] .faq__question::after {
-  content: "-";
-}
-
-.faq__answer {
-  padding-top: 18px;
-}
-
-.faq__answer p {
-  color: #b7b7b7;
-  line-height: 28px;
-  margin-bottom: 0;
+/* open effect */
+details[open] {
+  border-color: #00d4ff;
 }
 
 /* TEstimoniak */
-.testimonial__item {
-  padding: 35px 25px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: all 0.4s ease;
+.testimonial-section {
+  padding: 100px 0;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
 }
 
-.testimonial__item:hover {
-  transform: translateY(-5px);
-  border-color: #00bfe7;
+/* Left Title */
+.testimonial-title p {
+  color: #cbd5e1;
+  margin-top: 20px;
+  line-height: 1.6;
 }
 
-.testimonial__text p {
-  color: #b7b7b7;
-  line-height: 28px;
-  margin-bottom: 25px;
+/* Grid */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
 }
 
-.testimonial__author {
+/* Card */
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  transition: 0.3s ease;
+  min-height: 220px;
+}
+
+/* hover */
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  border-color: #00d4ff;
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.15);
+}
+
+/* quote icon */
+.quote-icon {
+  font-size: 28px;
+  color: #00d4ff;
+  margin-bottom: 15px;
+}
+
+/* text */
+.testimonial-card p {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* user */
+.testimonial-user {
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
-.testimonial__author__pic img {
-  width: 60px;
-  height: 60px;
+.testimonial-user img {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.testimonial__author__text {
-  margin-left: 15px;
+.testimonial-user h5 {
+  margin: 0;
+  font-size: 16px;
 }
 
-.testimonial__author__text h5 {
-  color: #ffffff;
-  margin-bottom: 5px;
-  font-size: 18px;
+.testimonial-user span {
+  font-size: 13px;
+  color: #00d4ff;
 }
 
-.testimonial__author__text span {
-  color: #00bfe7;
-  font-size: 14px;
+/* responsive */
+@media (max-width: 768px) {
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  width: 45px;
-  height: 45px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carousel-control-prev {
-  left: -20px;
-}
-
-.carousel-control-next {
-  right: -20px;
-}
-
-/* Glass Card */
-.glass-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(0, 255, 255, 0.15);
-  backdrop-filter: blur(10px);
+/* Hire me */
+.hire-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #00d4ff, #3b82f6);
+  color: #000;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
   transition: 0.3s ease;
 }
 
-.glass-card:hover {
-  transform: translateY(-8px);
-  border-color: #00e5ff;
-  box-shadow: 0 0 25px rgba(0, 229, 255, 0.2);
+.hire-btn:hover {
+  transform: scale(1.1);
+  color: #000;
+}
+
+/* Hire Section  */
+.hire-section {
+  padding: 100px 0;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+  text-align: center;
+}
+
+/* Box */
+.hire-box {
+  max-width: 800px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+}
+
+/* Heading */
+.hire-box h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.hire-box p {
+  color: #cbd5e1;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.hire-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* CV Button */
+.btn-cv {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #00d4ff;
+  color: #00d4ff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-cv:hover {
+  background: #00d4ff;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Hire Button */
+.btn-hire {
+  background: linear-gradient(90deg, #00d4ff, #3b82f6);
+  color: #000;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-hire:hover {
+  transform: scale(1.1);
 }
 
 /* Skill Tags */

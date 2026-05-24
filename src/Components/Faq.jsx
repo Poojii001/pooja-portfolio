@@ -1,103 +1,57 @@
-import React from 'react'
+import React from "react";
 
 export default function Faq() {
-    return (
-        <>
-            <section className="services spad">
-                <div className="container">
+  return (
+    <section className="faq-section" id="faq">
+      <div className="container">
 
-                    <div className="row align-items-center">
+        {/* Title */}
+        <div className="section-title">
+          <span>FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+        </div>
 
-                        <div className="col-lg-4">
-                            <div className="services__title">
-                                <div className="section-title">
-                                    <span>FAQ</span>
-                                    <h2>Frequently Asked Questions</h2>
-                                </div>
+        <div className="faq-wrapper">
 
-                                <p>
-                                    Find answers to common questions about my
-                                    development services, skills and projects.
-                                </p>
+          <details className="faq-card">
+            <summary className="faq-question">
+              What technologies do you work with?
+            </summary>
+            <p className="faq-answer">
+              I work with MERN stack (MongoDB, Express, React, Node.js) and modern frontend tools.
+            </p>
+          </details>
 
-                                <a href="#" className="primary-btn">
-                                    Contact Me
-                                </a>
-                            </div>
-                        </div>
+          <details className="faq-card">
+            <summary className="faq-question">
+              Do you build responsive websites?
+            </summary>
+            <p className="faq-answer">
+              Yes, all my websites are fully responsive and mobile-friendly.
+            </p>
+          </details>
 
-                        <div className="col-lg-8">
-                            <div className="row">
+          <details className="faq-card">
+            <summary className="faq-question">
+              Are you available for internships?
+            </summary>
+            <p className="faq-answer">
+              Yes, I am open for internships, freelance and collaboration opportunities.
+            </p>
+          </details>
 
-                                <div className="col-lg-6 col-md-6">
-                                    <details className="faq__item services__item">
-                                        <summary className="faq__question">
-                                            What technologies do you work with?
-                                        </summary>
+          <details className="faq-card">
+            <summary className="faq-question">
+              Do you build full stack projects?
+            </summary>
+            <p className="faq-answer">
+              Yes, I develop complete MERN stack applications with frontend, backend and database integration.
+            </p>
+          </details>
 
-                                        <div className="faq__answer">
-                                            <p>
-                                                I work with MongoDB, Express.js,
-                                                React.js, Node.js and modern
-                                                frontend technologies.
-                                            </p>
-                                        </div>
-                                    </details>
-                                </div>
+        </div>
 
-                                <div className="col-lg-6 col-md-6">
-                                    <details className="faq__item services__item">
-                                        <summary className="faq__question">
-                                            Do you create responsive websites?
-                                        </summary>
-
-                                        <div className="faq__answer">
-                                            <p>
-                                                Yes, all websites are fully responsive
-                                                and optimized for every device.
-                                            </p>
-                                        </div>
-                                    </details>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <details className="faq__item services__item">
-                                        <summary className="faq__question">
-                                            Are you available for internships?
-                                        </summary>
-
-                                        <div className="faq__answer">
-                                            <p>
-                                                Yes, I am open for internships,
-                                                freelance and collaboration opportunities.
-                                            </p>
-                                        </div>
-                                    </details>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <details className="faq__item services__item">
-                                        <summary className="faq__question">
-                                            Do you build full stack projects?
-                                        </summary>
-
-                                        <div className="faq__answer">
-                                            <p>
-                                                Yes, I develop complete MERN stack
-                                                applications with frontend, backend
-                                                and database integration.
-                                            </p>
-                                        </div>
-                                    </details>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
-        </>
-    )
+      </div>
+    </section>
+  );
 }
