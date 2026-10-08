@@ -2,29 +2,31 @@ import React from "react";
 
 export default function Skills() {
   const frontendSkills = [
-    { name: "React.js", level: "90%", color: "#00e5ff", icon: "bi-lightning-charge-fill" },
-    { name: "JavaScript (ES6+)", level: "88%", color: "#f7df1e", icon: "bi-filetype-js" },
-    { name: "HTML5 & Semantic UI", level: "95%", color: "#e34f26", icon: "bi-filetype-html" },
-    { name: "CSS3 & Modern Layouts", level: "90%", color: "#264de4", icon: "bi-filetype-css" },
-    { name: "Bootstrap & Responsive Design", level: "92%", color: "#7952b3", icon: "bi-bootstrap-fill" }
+    { name: "React.js & Next.js", level: "92%", color: "#00e5ff", icon: "bi-lightning-charge-fill" },
+    { name: "JavaScript (ES6+) & TypeScript", level: "88%", color: "#f7df1e", icon: "bi-filetype-js" },
+    { name: "Redux, Redux-Saga & Context API", level: "86%", color: "#764abc", icon: "bi-diagram-3-fill" },
+    { name: "HTML5 & Modern CSS3", level: "95%", color: "#e34f26", icon: "bi-filetype-html" },
+    { name: "Bootstrap & Material UI (MUI)", level: "90%", color: "#7952b3", icon: "bi-bootstrap-fill" }
   ];
 
   const backendSkills = [
-    { name: "Node.js", level: "85%", color: "#68a063", icon: "bi-server" },
-    { name: "Express.js Framework", level: "85%", color: "#ffffff", icon: "bi-hdd-network-fill" },
-    { name: "MongoDB & Mongoose", level: "82%", color: "#47a248", icon: "bi-database-fill" },
-    { name: "RESTful API Design", level: "88%", color: "#00e5ff", icon: "bi-cloud-arrow-up-fill" },
-    { name: "JWT Auth & Security", level: "80%", color: "#e11d48", icon: "bi-shield-lock-fill" }
+    { name: "Node.js & Express.js", level: "88%", color: "#68a063", icon: "bi-server" },
+    { name: "MongoDB, MySQL & PostgreSQL", level: "85%", color: "#47a248", icon: "bi-database-fill" },
+    { name: "RESTful APIs & JSON Server", level: "90%", color: "#00e5ff", icon: "bi-cloud-arrow-up-fill" },
+    { name: "WebSocket & Real-time Comm", level: "84%", color: "#38bdf8", icon: "bi-broadcast" },
+    { name: "JWT, Bcrypt & Python / FastAPI", level: "82%", color: "#e11d48", icon: "bi-shield-lock-fill" }
   ];
 
   const toolsSkills = [
     { name: "Git", color: "#f05032", icon: "bi-git" },
     { name: "GitHub", color: "#ffffff", icon: "bi-github" },
     { name: "Postman", color: "#ff6c37", icon: "bi-send-fill" },
-    { name: "Netlify", color: "#00c7b7", icon: "bi-cloud-fill" },
     { name: "Render", color: "#46e3b7", icon: "bi-cloud-arrow-up" },
+    { name: "Netlify", color: "#00c7b7", icon: "bi-cloud-fill" },
+    { name: "Vercel", color: "#ffffff", icon: "bi-triangle-fill" },
+    { name: "WinSCP", color: "#00e5ff", icon: "bi-hdd-network" },
     { name: "VS Code", color: "#007acc", icon: "bi-code-square" },
-    { name: "npm / Vite", color: "#cb3837", icon: "bi-box-seam" }
+    { name: "Multer & File Uploads", color: "#fbbf24", icon: "bi-file-earmark-arrow-up" }
   ];
 
   return (

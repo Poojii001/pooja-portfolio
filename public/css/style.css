@@ -456,29 +456,6 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
-.hero2-section {
-  height: 180px;
-  width: 100%;
-  background-image: url('/img/hero/h.png');
-  background-blend-mode: multiply;
-}
-
-.hero2-section h3 {
-  padding-top: 100px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.hero2-section .items {
-  padding-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
 .hero__item {
   height: 100vh;
   background-image: url('/img/hero/h.png');
@@ -3287,41 +3264,70 @@ details[open] {
 
 /* Inner Page Hero Section (hero2-section) */
 .hero2-section {
-  padding: 120px 20px 70px;
+  width: 100%;
+  min-height: 250px;
+  padding: 140px 20px 60px;
   text-align: center;
-  background: linear-gradient(180deg, #100028 0%, #0a0119 100%);
-  border-bottom: 1px solid rgba(0, 229, 255, 0.1);
+  background: linear-gradient(180deg, #12012c 0%, #0b001a 100%);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.15);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  clear: both;
+  z-index: 1;
 }
 
 .hero2-section h3 {
   color: #ffffff;
-  font-size: 42px;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
 }
 
 .hero2-section .items {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 
 .hero2-section .items a {
   color: #00e5ff;
   text-decoration: none;
-  transition: opacity 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 
 .hero2-section .items a:hover {
-  opacity: 0.8;
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.6);
 }
 
 .hero2-section .items span {
-  color: #cbd5e1;
+  color: #94a3b8;
 }
 
 .hero2-section .items i {
   color: #00e5ff;
-  font-size: 12px;
+  font-size: 11px;
+  margin: 0 12px;
+}
+
+@media (max-width: 768px) {
+  .hero2-section {
+    padding: 120px 15px 45px;
+    min-height: 200px;
+  }
+  .hero2-section h3 {
+    font-size: 28px;
+  }
 }

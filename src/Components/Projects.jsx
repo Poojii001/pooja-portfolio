@@ -3,57 +3,63 @@ import React, { useState } from 'react'
 const projectsData = [
   {
     id: 1,
-    title: "Apni Dukan - E-Commerce Website",
+    title: "Real-Time Chat App",
     category: "mern",
-    image: "/img/project/p1.png",
-    tags: ["MERN Stack", "React.js", "Node.js", "MongoDB", "JWT Auth"],
-    description: "Full-featured eCommerce web application with product catalog, cart management, user authentication, and responsive checkout UI.",
-    github: "https://github.com/Poojii001"
+    image: "/img/project/p6.png",
+    tags: ["React.js", "WebSocket", "Bootstrap", "Material UI (MUI)", "Real-time"],
+    description: "Instant one-to-one and group messaging app using WebSocket for low-latency connections, typing indicators, message delivery, and online/offline status.",
+    github: "https://github.com/Poojii001",
+    live: "https://chat-frontend-pooja.netlify.app"
   },
   {
     id: 2,
-    title: "LifeLink - Hospital Management & Emergency",
+    title: "AI Resume Screening System",
     category: "mern",
-    image: "/img/project/p222.png",
-    tags: ["React.js", "Node.js", "MongoDB", "Express.js"],
-    description: "Comprehensive healthcare portal connecting patients, doctors, emergency services, and blood donor matching.",
-    github: "https://github.com/Poojii001"
+    image: "/img/project/p4.png",
+    tags: ["Node.js", "Express.js", "MongoDB", "NLP Parsing", "Multer"],
+    description: "AI-powered resume screening tool that parses uploaded resumes (PDF/DOCX) and matches candidates against job descriptions using keyword and NLP skill extraction.",
+    github: "https://github.com/Poojii001",
+    live: "https://github.com/Poojii001"
   },
   {
     id: 3,
+    title: "Apni Dukan - Full Stack E-Commerce",
+    category: "mern",
+    image: "/img/project/p1.png",
+    tags: ["MERN Stack", "Redux-Saga", "JWT Auth", "MongoDB", "Express.js"],
+    description: "Full-stack e-commerce web application with JWT authentication, role-based access, product management, cart, wishlist, and secure checkout backend.",
+    github: "https://github.com/Poojii001",
+    live: "https://apni-dukan-ax4u.onrender.com"
+  },
+  {
+    id: 4,
+    title: "LifeLink - Healthcare Platform",
+    category: "frontend",
+    image: "/img/project/p222.png",
+    tags: ["React.js", "Redux", "JSON Server", "REST APIs", "CRUD"],
+    description: "Modern healthcare web application built with React and Redux featuring modules for Doctors, Patients, Appointments, and CRUD data management.",
+    github: "https://github.com/Poojii001",
+    live: "https://github.com/Poojii001"
+  },
+  {
+    id: 5,
     title: "NewsApp - Live News Aggregator",
     category: "frontend",
     image: "/img/project/p3.png",
     tags: ["React.js", "REST API", "Bootstrap", "Responsive UI"],
     description: "Live news application that fetches breaking headlines and categorized news from global REST API sources with search and infinite scroll.",
-    github: "https://github.com/Poojii001"
+    github: "https://github.com/Poojii001",
+    live: "https://github.com/Poojii001"
   },
   {
-    id: 4,
-    title: "State Management with Context API",
-    category: "frontend",
-    image: "/img/project/p4.png",
-    tags: ["React.js", "Context API", "Hooks", "Dynamic State"],
-    description: "Interactive web application showcasing global state management patterns, custom reducers, and seamless dynamic state flow.",
-    github: "https://github.com/Poojii001"
-  },
-  {
-    id: 5,
+    id: 6,
     title: "Modern To-Do List Application",
     category: "javascript",
     image: "/img/project/p5.png",
     tags: ["JavaScript", "HTML5", "CSS3", "Local Storage"],
     description: "Productivity task organizer with task filtering, status badges, editable items, and persistent browser storage.",
-    github: "https://github.com/Poojii001"
-  },
-  {
-    id: 6,
-    title: "MyChatApp - Realtime Chat Platform",
-    category: "backend",
-    image: "/img/project/p6.png",
-    tags: ["Node.js", "Express", "Socket.io", "MongoDB"],
-    description: "Instant real-time messaging application supporting bidirectional communication, online status indicators, and chat history.",
-    github: "https://github.com/Poojii001"
+    github: "https://github.com/Poojii001",
+    live: "https://github.com/Poojii001"
   },
   {
     id: 7,
@@ -62,7 +68,8 @@ const projectsData = [
     image: "/img/project/p7.png",
     tags: ["JavaScript", "CSS3", "Responsive UI"],
     description: "Accurate health and BMI measurement tool with real-time category visualization, health insights, and clean responsive layout.",
-    github: "https://github.com/Poojii001"
+    github: "https://github.com/Poojii001",
+    live: "https://github.com/Poojii001"
   },
   {
     id: 8,
@@ -71,7 +78,8 @@ const projectsData = [
     image: "/img/project/p8.png",
     tags: ["JavaScript", "DOM Manipulation", "CSS3"],
     description: "Dynamic palette generator and theme switcher with real-time hex code copying and smooth color transitions.",
-    github: "https://github.com/Poojii001"
+    github: "https://github.com/Poojii001",
+    live: "https://github.com/Poojii001"
   },
   {
     id: 9,
@@ -80,7 +88,8 @@ const projectsData = [
     image: "/img/project/p9.png",
     tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
     description: "Pixel-perfect Amazon homepage clone with dynamic product grid, navigation bars, banners, and fully responsive mobile layouts.",
-    github: "https://github.com/Poojii001"
+    github: "https://github.com/Poojii001",
+    live: "https://github.com/Poojii001"
   }
 ];
 
@@ -226,7 +235,7 @@ export default function Projects() {
                       <i className="bi bi-github"></i> Code
                     </a>
                     <a
-                      href={project.github}
+                      href={project.live || project.github}
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-sm btn-info flex-fill d-inline-flex align-items-center justify-content-center gap-1 text-dark fw-bold"

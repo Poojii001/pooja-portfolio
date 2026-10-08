@@ -17,12 +17,11 @@ const Education = () => {
           <div className="timeline-item left">
             <div className="timeline-content">
               <h5 className="text-light fw-bold">
-                Bachelor of Technology (CSE)
+                Bachelor of Technology in Computer Science and Engineering
               </h5>
-              <span className="text-info">AKTU University | 2022 - 2026</span>
+              <span className="text-info">Dr. A.P.J. Abdul Kalam Technical University | 11/2022 – 06/2026 · Lucknow, India</span>
               <p className="text-secondary mt-2 text-light">
-                Computer Science and Engineering student with interest in full stack web development,
-                MERN stack, and software engineering fundamentals.
+                Comprehensive study in Computer Science and Engineering, data structures, database management systems, and specialized hands-on software development using MERN Full Stack.
               </p>
             </div>
           </div>

@@ -85,16 +85,19 @@ export default function Experience() {
               </div>
 
               {/* Job Title & Company */}
-              <h4 className="text-light fw-bold fs-5 mb-1">Full Stack Trainee & Developer</h4>
+              <h4 className="text-light fw-bold fs-5 mb-1">Full Stack Trainee</h4>
               <div className="text-info fw-semibold mb-1">Logimetrix Techsolutions Pvt. Ltd.</div>
               <div className="text-secondary small mb-3" style={{ color: '#94a3b8' }}>
-                <i className="bi bi-geo-alt-fill text-info me-1"></i> Gomti Nagar, Lucknow | 15 June 2026 – 14 September 2026
+                <i className="bi bi-geo-alt-fill text-info me-1"></i> Lucknow, India | 06/2026 – Present
               </div>
 
               {/* Description */}
-              <p className="text-secondary flex-grow-1 small" style={{ color: '#cbd5e1', lineHeight: '1.65' }}>
-                Worked on end-to-end full stack web development and client-ready technical assignments. Engineered RESTful APIs, connected React frontend with Node/Express backends, managed MongoDB databases, and contributed to live team workflows.
-              </p>
+              <ul className="text-secondary flex-grow-1 small ps-3 mb-3 d-flex flex-column gap-1" style={{ color: '#cbd5e1', lineHeight: '1.6' }}>
+                <li>Joined as a Full Stack Trainee, working on live full-stack projects using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
+                <li>Collaborating with the development team to design, build, and maintain responsive web applications and RESTful APIs.</li>
+                <li>Contributing to front-end feature development with React.js and back-end services with Node.js and Express.js.</li>
+                <li>Participating in code reviews, testing, and debugging to ensure high-quality, maintainable code.</li>
+              </ul>
 
               {/* Footer with Button */}
               <div className="pt-3 border-top border-secondary border-opacity-25 d-flex flex-wrap justify-content-between align-items-center gap-2">
@@ -111,7 +114,7 @@ export default function Experience() {
             </div>
           </div>
 
-          {/* Card 2 - S O INFOTECH (P) LTD */}
+          {/* Card 2 - S O INFOTECH / DUCAT */}
           <div className="col-lg-6">
             <div
               className="p-4 rounded-4 h-100 d-flex flex-column"
@@ -137,21 +140,24 @@ export default function Experience() {
                   🏢
                 </div>
                 <span className="badge text-light px-3 py-2 rounded-pill fw-bold" style={{ background: '#3b82f6' }}>
-                  <i className="bi bi-patch-check-fill me-1"></i> 6-Month MERN Project
+                  <i className="bi bi-patch-check-fill me-1"></i> Full Stack Internship
                 </span>
               </div>
 
               {/* Job Title & Company */}
-              <h4 className="text-light fw-bold fs-5 mb-1">MERN Full Stack Developer Intern</h4>
-              <div className="text-info fw-semibold mb-1">S O INFOTECH (P) LTD.</div>
+              <h4 className="text-light fw-bold fs-5 mb-1">Full Stack Intern</h4>
+              <div className="text-info fw-semibold mb-1">DUCAT School of AI / S O INFOTECH (P) LTD.</div>
               <div className="text-secondary small mb-3" style={{ color: '#94a3b8' }}>
-                <i className="bi bi-geo-alt-fill text-info me-1"></i> Noida / Delhi NCR | 1 Sept 2025 – 12 March 2026
+                <i className="bi bi-geo-alt-fill text-info me-1"></i> Noida, India | 07/2025 – 03/2026
               </div>
 
               {/* Description */}
-              <p className="text-secondary flex-grow-1 small" style={{ color: '#cbd5e1', lineHeight: '1.65' }}>
-                Completed 6-month intensive training working on the flagship <strong>"E-commerce"</strong> project using full MERN Stack under Technical Head guidance. Built product catalogs, shopping carts, authentication, and secure checkout backend architecture.
-              </p>
+              <ul className="text-secondary flex-grow-1 small ps-3 mb-3 d-flex flex-column gap-1" style={{ color: '#cbd5e1', lineHeight: '1.6' }}>
+                <li>Gained hands-on experience in full-stack development using MongoDB, Express.js, React, and Node.js (MERN stack).</li>
+                <li>Implemented responsive UI, RESTful APIs, and state management using React and Context API / React Hooks.</li>
+                <li>Applied best practices in component-driven architecture, code reusability, and maintainable frontend design.</li>
+                <li>Assisted in testing, debugging, and deployment of live projects.</li>
+              </ul>
 
               {/* Footer with Button */}
               <div className="pt-3 border-top border-secondary border-opacity-25 d-flex flex-wrap justify-content-between align-items-center gap-2">
