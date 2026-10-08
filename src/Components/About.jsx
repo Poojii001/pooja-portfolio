@@ -40,7 +40,7 @@ export default function About() {
                                         <div className="services__item">
 
                                             <div className="services__item__icon">
-                                                <img src="img/icons/si-3.png" alt="" />
+                                                <img src="/img/icons/si-3.png" alt="Frontend" />
                                             </div>
 
                                             <h4>Frontend</h4>
@@ -58,7 +58,7 @@ export default function About() {
                                         <div className="services__item">
 
                                             <div className="services__item__icon">
-                                                <img src="img/icons/si-4.png" alt="" />
+                                                <img src="/img/icons/si-4.png" alt="MERN Stack" />
                                             </div>
 
                                             <h4>MERN Stack</h4>

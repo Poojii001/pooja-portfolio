@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 export default function Services() {
     return (
         <section className="services-section" id="services">
@@ -16,7 +18,7 @@ export default function Services() {
                     <ServiceCard
                         icon="bi-code-slash"
                         title="Frontend Development"
-                        desc="I build responsive and modern UI using React.js, HTML, CSS and Bootstrap."
+                        desc="I build responsive and modern UI using React.js, HTML5, CSS3 and modern component architectures."
                     />
 
                     <ServiceCard
@@ -28,22 +30,22 @@ export default function Services() {
                     <ServiceCard
                         icon="bi-phone"
                         title="Responsive Design"
-                        desc="Fully mobile-friendly UI for all devices with smooth performance."
+                        desc="Fully mobile-friendly UI for all screen sizes and devices with fast performance."
                     />
 
                     <ServiceCard
                         icon="bi-shield-lock"
                         title="Authentication System"
-                        desc="Secure login/signup systems with JWT, bcrypt and role-based access."
+                        desc="Secure login/signup systems with JWT, bcrypt, and role-based route protection."
                     />
 
                 </div>
 
                 {/* CTA Button */}
-                <div className="services-cta">
-                    <a href="/hire" className="hire-btn">
-                        Hire Me 
-                    </a>
+                <div className="services-cta mt-5 text-center">
+                    <Link to="/hire" className="btn-hire px-4 py-3 d-inline-block text-decoration-none">
+                        Hire Me <i className="bi bi-arrow-right ms-1"></i>
+                    </Link>
                 </div>
 
             </div>

@@ -15,9 +15,12 @@ import TestimonialPage from './Pages/TestimonialPage'
 import SkillPage from './Pages/SkillPage'
 import HireSectionPage from './Pages/HireSectionPage'
 
+import ScrollToTop from './Components/ScrollToTop'
+
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='' element={<HomePage />} />
