@@ -74,26 +74,15 @@ export default function About() {
                                 </div>
 
                                 <div className="about__text__desc">
-
                                     <p>
-                                        Hello! I’m Pooja Pal, a passionate MERN Stack Developer
-                                        who loves creating modern, responsive, and user-friendly
-                                        web applications. I have completed my graduation in
-                                        Computer Science and recently completed a 6-month MERN
-                                        Stack training program where I gained hands-on experience
-                                        in React.js, Node.js, Express.js, and MongoDB.
-
-                                        I enjoy turning creative ideas into real-world web
-                                        applications with clean UI designs and efficient backend
-                                        functionality. I have worked on projects like LifeLink
-                                        and E-commerce websites which helped me improve my skills
-                                        in API integration, frontend-backend connectivity,
-                                        authentication, and responsive web design.
-
-                                        I am always eager to learn new technologies, improve my
-                                        coding skills, and build impactful digital experiences.
+                                        Hello! I’m Pooja Pal, a passionate MERN Stack Developer who loves creating modern, responsive, and high-performance web applications. I am pursuing B.Tech in Computer Science and Engineering, with verified industry training from <strong>Logimetrix Techsolutions Pvt. Ltd. (Lucknow)</strong> and <strong>S O INFOTECH (P) LTD. (Noida)</strong>.
                                     </p>
-
+                                    <p>
+                                        I specialize in building end-to-end full stack web applications with React.js, Node.js, Express.js, and MongoDB. I have built production-ready systems like <strong>LifeLink Healthcare Portal</strong>, <strong>E-Commerce platforms</strong>, and real-time <strong>Chat Applications</strong> with secure JWT authentication and RESTful APIs.
+                                    </p>
+                                    <p>
+                                        I am eager to contribute to innovative software engineering teams, solve real-world problems, and build impactful digital experiences.
+                                    </p>
                                 </div>
 
                             </div>

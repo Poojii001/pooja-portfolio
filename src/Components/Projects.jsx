@@ -207,23 +207,36 @@ export default function Projects() {
                     ))}
                   </div>
 
-                  {/* Links */}
-                  <div className="pt-2 border-top border-secondary border-opacity-25 d-flex justify-content-between align-items-center">
+                  {/* Action Buttons */}
+                  <div className="pt-3 border-top border-secondary border-opacity-25 d-flex gap-2 align-items-center">
                     <a
                       href={project.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-info text-decoration-none small fw-bold d-inline-flex align-items-center"
+                      className="btn btn-sm flex-fill d-inline-flex align-items-center justify-content-center gap-1"
+                      style={{
+                        background: 'rgba(255, 255, 255, 0.08)',
+                        color: '#ffffff',
+                        border: '1px solid rgba(255, 255, 255, 0.2)',
+                        fontSize: '12px',
+                        borderRadius: '20px',
+                        padding: '6px 12px'
+                      }}
                     >
-                      <i className="bi bi-github me-1"></i> View Code
+                      <i className="bi bi-github"></i> Code
                     </a>
                     <a
                       href={project.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-light text-decoration-none small d-inline-flex align-items-center"
+                      className="btn btn-sm btn-info flex-fill d-inline-flex align-items-center justify-content-center gap-1 text-dark fw-bold"
+                      style={{
+                        fontSize: '12px',
+                        borderRadius: '20px',
+                        padding: '6px 12px'
+                      }}
                     >
-                      Explore <i className="bi bi-arrow-right ms-1 text-info"></i>
+                      <i className="bi bi-box-arrow-up-right"></i> Live Demo
                     </a>
                   </div>
                 </div>

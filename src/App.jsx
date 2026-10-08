@@ -16,6 +16,7 @@ import SkillPage from './Pages/SkillPage'
 import HireSectionPage from './Pages/HireSectionPage'
 
 import ScrollToTop from './Components/ScrollToTop'
+import FloatingContact from './Components/FloatingContact'
 
 export default function App() {
   return (
@@ -35,9 +36,9 @@ export default function App() {
         <Route path='/education' element={<EducationPage />} />
         <Route path='/hire' element={<HireSectionPage />} />
 
-
         <Route path='/*' element={<ErrorPage />} />
       </Routes>
+      <FloatingContact />
       <Footer />
     </BrowserRouter>
   )
