@@ -5,26 +5,26 @@ export default function Testimonial() {
   const testimonials = [
     {
       id: 1,
-      text: "Pooja delivered a clean, ultra-responsive website with smooth React functionality and modern UI design. Very proactive in communication!",
-      name: "Rahul Sharma",
-      role: "Frontend Client",
-      initials: "RS",
+      text: "Pooja demonstrated outstanding commitment during her full-stack internship. She quickly grasped complex React.js patterns, engineered robust REST APIs with Express & Node.js, and contributed clean, maintainable code to live projects.",
+      name: "Engineering Lead",
+      role: "Logimetrix Techsolutions Pvt. Ltd.",
+      initials: "LT",
       rating: 5
     },
     {
       id: 2,
-      text: "Her MERN stack skills are impressive. The project was completed on time with proper REST API and database integration.",
-      name: "Anjali Verma",
-      role: "Project Mentor",
-      initials: "AV",
+      text: "Her performance during the 6-month MERN Stack program was exemplary. She successfully developed end-to-end E-Commerce features including JWT auth, shopping carts, and Redux state management under tight deadlines.",
+      name: "Technical Head & Mentor",
+      role: "DUCAT / S O INFOTECH (P) LTD.",
+      initials: "SO",
       rating: 5
     },
     {
       id: 3,
-      text: "Very hardworking and creative developer. She builds scalable, user-friendly web applications with clean code architecture.",
-      name: "Amit Singh",
-      role: "Senior Full Stack Dev",
-      initials: "AS",
+      text: "Pooja is a dedicated full stack developer with great problem-solving aptitude. Her focus on responsive design, modern UI components, and scalable backend architecture makes her a strong asset for any team.",
+      name: "Project Reviewer",
+      role: "Full Stack Web Engineering",
+      initials: "PP",
       rating: 5
     }
   ];

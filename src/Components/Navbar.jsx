@@ -5,7 +5,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const siteName = import.meta.env.VITE_APP_SITE_NAME || 'Full Stack Engineer';
     const githubUrl = import.meta.env.VITE_APP_GITHUB || 'https://github.com/Poojii001';
-    const linkedinUrl = import.meta.env.VITE_APP_LINKEDIN || '#';
+    const linkedinUrl = import.meta.env.VITE_APP_LINKEDIN || 'https://www.linkedin.com/in/pooja-pal-cse';
     const instagramUrl = import.meta.env.VITE_APP_INSTAGRAM || '#';
     const twitterUrl = import.meta.env.VITE_APP_TWITTER || '#';
     const facebookUrl = import.meta.env.VITE_APP_FACEBOOK || '#';
@@ -16,9 +16,9 @@ export default function Navbar() {
 
     return (
         <header className="header">
-            <div className="container">
+            <div className="container-fluid px-xl-5 px-lg-4 px-3">
                 <div className="row align-items-center">
-                    <div className="col-lg-3 col-8">
+                    <div className="col-xl-3 col-lg-2 col-7">
                         <div className="header__logo">
                             <Link to="/" onClick={closeMenu}>
                                 <h5 className="text-light fs-5 mb-0 fw-bold">
@@ -30,7 +30,7 @@ export default function Navbar() {
                         </div>
                     </div>
 
-                    <div className="col-4 d-lg-none text-end">
+                    <div className="col-5 d-lg-none text-end">
                         <button
                             onClick={toggleMenu}
                             className="btn text-light fs-3 p-0 border-0 bg-transparent shadow-none"
@@ -40,7 +40,7 @@ export default function Navbar() {
                         </button>
                     </div>
 
-                    <div className="col-lg-9 d-none d-lg-block">
+                    <div className="col-xl-9 col-lg-10 d-none d-lg-block">
                         <div className="header__nav__option">
                             <nav className="header__nav__menu">
                                 <ul>
@@ -63,12 +63,16 @@ export default function Navbar() {
                                 </ul>
                             </nav>
                             <div className="header__nav__social">
-                                <a href={githubUrl} target="_blank" rel="noreferrer" title="GitHub"><i className="bi bi-github"></i></a>
-                                <a href={linkedinUrl} target="_blank" rel="noreferrer" title="LinkedIn"><i className="bi bi-linkedin"></i></a>
-                                {twitterUrl !== '#' && <a href={twitterUrl} target="_blank" rel="noreferrer" title="Twitter / X"><i className="bi bi-twitter-x"></i></a>}
-                                {instagramUrl !== '#' && <a href={instagramUrl} target="_blank" rel="noreferrer" title="Instagram"><i className="bi bi-instagram"></i></a>}
-                                {facebookUrl !== '#' && <a href={facebookUrl} target="_blank" rel="noreferrer" title="Facebook"><i className="bi bi-facebook"></i></a>}
-                                {youtubeUrl !== '#' && <a href={youtubeUrl} target="_blank" rel="noreferrer" title="YouTube"><i className="bi bi-youtube"></i></a>}
+                                <a href={githubUrl} target="_blank" rel="noopener noreferrer" title="GitHub"><i className="bi bi-github"></i></a>
+                                <a href={linkedinUrl} target="_blank" rel="noopener" title="LinkedIn"><i className="bi bi-linkedin"></i></a>
+                                <a
+                                    href="/resume/Pooja_Pal_Resume.png"
+                                    download="Pooja_Pal_FullStack_Resume.png"
+                                    className="btn-cv-nav d-inline-flex align-items-center gap-1"
+                                    title="Download Resume"
+                                >
+                                    <i className="bi bi-download"></i> CV
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -90,11 +94,18 @@ export default function Navbar() {
                             <li className="py-2"><NavLink to="/hire" onClick={closeMenu} className="text-info text-decoration-none d-block fw-bold">Hire Me</NavLink></li>
                             <li className="py-2"><NavLink to="/contactus" onClick={closeMenu} className="text-light text-decoration-none d-block">Contact Me</NavLink></li>
                         </ul>
-                        <div className="d-flex gap-3 pt-2 border-top border-secondary">
-                            <a href={githubUrl} target="_blank" rel="noreferrer" className="text-light fs-5"><i className="bi bi-github"></i></a>
-                            <a href={linkedinUrl} target="_blank" rel="noreferrer" className="text-light fs-5"><i className="bi bi-linkedin"></i></a>
-                            {twitterUrl !== '#' && <a href={twitterUrl} target="_blank" rel="noreferrer" className="text-light fs-5"><i className="bi bi-twitter-x"></i></a>}
-                            {instagramUrl !== '#' && <a href={instagramUrl} target="_blank" rel="noreferrer" className="text-light fs-5"><i className="bi bi-instagram"></i></a>}
+                        <div className="d-flex justify-content-between align-items-center pt-2 border-top border-secondary">
+                            <div className="d-flex gap-3">
+                                <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="text-light fs-5"><i className="bi bi-github"></i></a>
+                                <a href={linkedinUrl} target="_blank" rel="noopener" className="text-light fs-5"><i className="bi bi-linkedin"></i></a>
+                            </div>
+                            <a
+                                href="/resume/Pooja_Pal_Resume.png"
+                                download="Pooja_Pal_FullStack_Resume.png"
+                                className="btn btn-sm btn-info text-dark fw-bold rounded-pill px-3 py-1"
+                            >
+                                <i className="bi bi-download me-1"></i> Download CV
+                            </a>
                         </div>
                     </div>
                 )}

@@ -26,6 +26,7 @@ export default function ContactUsPage() {
     const whatsapp = import.meta.env.VITE_APP_WHATSAPP || '9506580566';
     const address = import.meta.env.VITE_APP_ADDRESS || 'CN-145, Kurauni, Bijnaur Road, Banthara, Lucknow (226401), India';
     const mapUrl = import.meta.env.VITE_APP_MAP2 || '#';
+    const linkedinUrl = import.meta.env.VITE_APP_LINKEDIN || 'https://www.linkedin.com/in/pooja-pal-cse';
 
     return (
         <>
@@ -107,6 +108,12 @@ export default function ContactUsPage() {
                                 </p>
 
                                 <div className="contact__info mt-4">
+                                    <div className="contact__info__item d-flex align-items-center mb-3">
+                                        <i className="bi bi-linkedin fs-4 text-info me-3"></i>
+                                        <a href={linkedinUrl} target="_blank" rel="noopener" className="text-light text-decoration-none">
+                                            LinkedIn: <span className="text-info fw-bold">Connect on LinkedIn</span>
+                                        </a>
+                                    </div>
                                     <div className="contact__info__item d-flex align-items-center mb-3">
                                         <i className="bi bi-whatsapp fs-4 text-info me-3"></i>
                                         <span className="text-light">Quick Responses on WhatsApp</span>

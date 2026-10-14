@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Team() {
   const githubUrl = import.meta.env.VITE_APP_GITHUB || 'https://github.com/Poojii001';
-  const linkedinUrl = import.meta.env.VITE_APP_LINKEDIN || '#';
-  const twitterUrl = import.meta.env.VITE_APP_TWITTER || '#';
-  const instagramUrl = import.meta.env.VITE_APP_INSTAGRAM || '#';
+  const linkedinUrl = import.meta.env.VITE_APP_LINKEDIN || 'https://www.linkedin.com/in/pooja-pal-cse';
+  const twitterUrl = import.meta.env.VITE_APP_TWITTER || '';
+  const instagramUrl = import.meta.env.VITE_APP_INSTAGRAM || '';
 
   const teamCards = [
     {
@@ -69,19 +69,19 @@ export default function Team() {
                   <p>{item.role}</p>
 
                   <div className="team__item__social">
-                    <a href={githubUrl} target='_blank' rel='noreferrer' title="GitHub">
+                    <a href={githubUrl} target='_blank' rel='noopener noreferrer' title="GitHub">
                       <i className="bi bi-github"></i>
                     </a>
-                    <a href={linkedinUrl} target='_blank' rel='noreferrer' title="LinkedIn">
+                    <a href={linkedinUrl} target='_blank' rel='noopener' title="LinkedIn">
                       <i className="bi bi-linkedin"></i>
                     </a>
-                    {twitterUrl !== '#' && (
-                      <a href={twitterUrl} target='_blank' rel='noreferrer' title="Twitter / X">
+                    {twitterUrl && twitterUrl !== '#' && (
+                      <a href={twitterUrl} target='_blank' rel='noopener noreferrer' title="Twitter / X">
                         <i className="bi bi-twitter-x"></i>
                       </a>
                     )}
-                    {instagramUrl !== '#' && (
-                      <a href={instagramUrl} target='_blank' rel='noreferrer' title="Instagram">
+                    {instagramUrl && instagramUrl !== '#' && (
+                      <a href={instagramUrl} target='_blank' rel='noopener noreferrer' title="Instagram">
                         <i className="bi bi-instagram"></i>
                       </a>
                     )}

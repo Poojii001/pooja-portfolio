@@ -19,11 +19,11 @@ export default function HireSection() {
 
             {/* Download CV */}
             <a
-              href="/Pooja_Pal_CV.pdf"
-              download
-              className="btn-cv"
+              href="/resume/Pooja_Pal_Resume.png"
+              download="Pooja_Pal_FullStack_Resume.png"
+              className="btn-cv d-inline-flex align-items-center gap-2"
             >
-              Download CV 
+              <i className="bi bi-download"></i> Download CV 
             </a>
 
             {/* Hire Me */}

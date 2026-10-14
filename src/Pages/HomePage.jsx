@@ -81,7 +81,14 @@ export default function HomePage() {
                         <Link to="/projects" className="btn-hire px-4 py-3 text-decoration-none">
                             Explore Projects <i className="bi bi-arrow-right ms-1"></i>
                         </Link>
-                        <Link to="/contactus" className="btn-cv px-4 py-3 text-decoration-none">
+                        <a
+                            href="/resume/Pooja_Pal_Resume.png"
+                            download="Pooja_Pal_FullStack_Resume.png"
+                            className="btn-cv px-4 py-3 text-decoration-none d-inline-flex align-items-center gap-2"
+                        >
+                            <i className="bi bi-file-earmark-arrow-down-fill text-info"></i> Download CV
+                        </a>
+                        <Link to="/contactus" className="btn-outline-light px-4 py-3 text-decoration-none rounded-pill border border-secondary border-opacity-50 text-light small fw-bold">
                             Contact Me
                         </Link>
                     </div>
