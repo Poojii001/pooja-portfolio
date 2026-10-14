@@ -41,7 +41,7 @@ export default function Footer() {
                         <div className="col-lg-6 col-md-6">
                             <div className="footer__top__social">
                                 <a href={githubUrl} target='_blank' rel='noopener noreferrer' title="GitHub"><i className="bi bi-github"></i></a>
-                                <a href={linkedinUrl} target='_blank' rel='noopener' title="LinkedIn"><i className="bi bi-linkedin"></i></a>
+                                <a href={linkedinUrl} target='_blank' rel='noopener noreferrer' title="LinkedIn"><i className="bi bi-linkedin"></i></a>
                                 {twitterUrl && twitterUrl !== '#' && <a href={twitterUrl} target='_blank' rel='noopener noreferrer' title="Twitter / X"><i className="bi bi-twitter-x"></i></a>}
                                 {instagramUrl && instagramUrl !== '#' && <a href={instagramUrl} target='_blank' rel='noopener noreferrer' title="Instagram"><i className="bi bi-instagram"></i></a>}
                                 {facebookUrl && facebookUrl !== '#' && <a href={facebookUrl} target='_blank' rel='noopener noreferrer' title="Facebook"><i className="bi bi-facebook"></i></a>}

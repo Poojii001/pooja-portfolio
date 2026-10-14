@@ -110,7 +110,7 @@ export default function ContactUsPage() {
                                 <div className="contact__info mt-4">
                                     <div className="contact__info__item d-flex align-items-center mb-3">
                                         <i className="bi bi-linkedin fs-4 text-info me-3"></i>
-                                        <a href={linkedinUrl} target="_blank" rel="noopener" className="text-light text-decoration-none">
+                                        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-light text-decoration-none">
                                             LinkedIn: <span className="text-info fw-bold">Connect on LinkedIn</span>
                                         </a>
                                     </div>

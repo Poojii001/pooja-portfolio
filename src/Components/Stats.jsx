@@ -121,7 +121,7 @@ export default function Stats() {
               className="p-4 rounded-4 h-100 text-start d-flex flex-column justify-content-between"
               style={{
                 background: 'rgba(255, 255, 255, 0.02)',
-                border: '1px solid rgba(10, 102, 194, 0.35)',
+                border: '1px solid rgba(0, 229, 255, 0.15)',
                 transition: 'all 0.3s ease'
               }}
               onMouseEnter={(e) => {
@@ -129,15 +129,15 @@ export default function Stats() {
                 e.currentTarget.style.transform = 'translateY(-3px)';
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = 'rgba(10, 102, 194, 0.35)';
+                e.currentTarget.style.borderColor = 'rgba(0, 229, 255, 0.15)';
                 e.currentTarget.style.transform = 'translateY(0)';
               }}
             >
               <div>
                 <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
                   <div className="d-flex align-items-center gap-2">
-                    <i className="bi bi-linkedin fs-3" style={{ color: '#00e5ff' }}></i>
-                    <h5 className="text-light fw-bold mb-0">LinkedIn Profile</h5>
+                    <i className="bi bi-linkedin fs-3 text-info"></i>
+                    <h5 className="text-light fw-bold mb-0">Professional & LinkedIn</h5>
                   </div>
                   <span
                     className="badge rounded-pill"
@@ -153,28 +153,17 @@ export default function Stats() {
                   </span>
                 </div>
                 <p className="text-secondary small mb-3" style={{ color: '#94a3b8' }}>
-                  Full Stack Trainee at Logimetrix Techsolutions • 400+ Connections • Open for Developer roles.
+                  Full Stack Trainee at Logimetrix Techsolutions • 400+ Connections • Active Developer Profile.
                 </p>
               </div>
               <div>
                 <a
                   href={linkedinUrl}
                   target="_blank"
-                  rel="noopener"
-                  className="btn rounded-pill px-4 py-2 fw-bold d-inline-flex align-items-center gap-2"
-                  style={{
-                    background: '#0a66c2',
-                    color: '#ffffff',
-                    border: '1px solid #0a66c2'
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = '#004182';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = '#0a66c2';
-                  }}
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-info rounded-pill px-4 py-2 fw-bold d-inline-flex align-items-center gap-2"
                 >
-                  <i className="bi bi-box-arrow-up-right"></i> View @pooja-pal-cse on LinkedIn
+                  <i className="bi bi-box-arrow-up-right text-warning"></i> View @pooja-pal-cse on LinkedIn
                 </a>
               </div>
             </div>

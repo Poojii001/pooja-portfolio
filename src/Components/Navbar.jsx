@@ -64,7 +64,7 @@ export default function Navbar() {
                             </nav>
                             <div className="header__nav__social">
                                 <a href={githubUrl} target="_blank" rel="noopener noreferrer" title="GitHub"><i className="bi bi-github"></i></a>
-                                <a href={linkedinUrl} target="_blank" rel="noopener" title="LinkedIn"><i className="bi bi-linkedin"></i></a>
+                                <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" title="LinkedIn"><i className="bi bi-linkedin"></i></a>
                                 <a
                                     href="/resume/Pooja_Pal_Resume.png"
                                     download="Pooja_Pal_FullStack_Resume.png"
@@ -97,7 +97,7 @@ export default function Navbar() {
                         <div className="d-flex justify-content-between align-items-center pt-2 border-top border-secondary">
                             <div className="d-flex gap-3">
                                 <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="text-light fs-5"><i className="bi bi-github"></i></a>
-                                <a href={linkedinUrl} target="_blank" rel="noopener" className="text-light fs-5"><i className="bi bi-linkedin"></i></a>
+                                <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-light fs-5"><i className="bi bi-linkedin"></i></a>
                             </div>
                             <a
                                 href="/resume/Pooja_Pal_Resume.png"

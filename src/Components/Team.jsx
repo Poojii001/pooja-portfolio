@@ -72,7 +72,7 @@ export default function Team() {
                     <a href={githubUrl} target='_blank' rel='noopener noreferrer' title="GitHub">
                       <i className="bi bi-github"></i>
                     </a>
-                    <a href={linkedinUrl} target='_blank' rel='noopener' title="LinkedIn">
+                    <a href={linkedinUrl} target='_blank' rel='noopener noreferrer' title="LinkedIn">
                       <i className="bi bi-linkedin"></i>
                     </a>
                     {twitterUrl && twitterUrl !== '#' && (
